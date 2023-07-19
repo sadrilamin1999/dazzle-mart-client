@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Button from "./Button";
 
 const Navbar = () => {
   return (
@@ -36,7 +37,7 @@ const Navbar = () => {
           </ul>
         </nav>
         {/* Nav right */}
-        <Link href="/login">Login</Link>
+        <Button href="/login" placeholder="Login" color="green" />
       </div>
     </header>
   );
